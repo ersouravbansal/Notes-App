@@ -9,7 +9,7 @@ function Search({handleSearch}) {
         {/*this is our search icon within our search bar and I have fixed it's size to 1.3em*/}
             <MdSearch className="search-icon" size="1.4em"/>
             {/*this is the input tag for our search and here , I have used some onClick events for searching*/}
-            <input type="text" placeholder="Search for your notes..." onChange={(event)=>handleSearch(event.target.value)}/>
+            <input type="text" placeholder="Search Your Smart Notes :)" onChange={(event)=>handleSearch(event.target.value)}/>
         </div>
     )
 }

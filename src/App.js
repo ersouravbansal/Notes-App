@@ -9,18 +9,18 @@ function App() {
   const [notes,setNotes] = useState([
     {
     id: nanoid(),
-    text:"This is my first note",
-    date:"03/11/2021"
+    text:"This is my first note in Smart Notes.",
+    date:"30/06/2022"
   },
   {
     id: nanoid(),
-    text:"This is my second note",
-    date:"03/11/2021"
+    text:"Its Amazing to create Notes App with React",
+    date:"30/06/2022"
   },
   {
     id: nanoid(),
-    text:"This is my third note",
-    date:"03/11/2021"
+    text:"God is Great!",
+    date:"30/06/2022"
   },
  
 ]);
